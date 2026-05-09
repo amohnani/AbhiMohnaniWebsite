@@ -266,6 +266,10 @@
   color: #fff;
 }
 
+html {
+  font-size: 106.25%;
+}
+
 body {
   font-family: 'Nunito';
   letter-spacing: 0.0625em;
