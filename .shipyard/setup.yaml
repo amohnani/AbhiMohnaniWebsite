@@ -1,0 +1,5 @@
+version: 1
+scripts:
+  - name: download go modules
+    run: go mod download
+    timeout: 10m
