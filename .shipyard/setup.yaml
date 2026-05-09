@@ -1,5 +1,13 @@
-version: 1
-scripts:
-  - name: download go modules
-    run: go mod download
-    timeout: 10m
+  version: 1
+  apt:
+    packages:
+      - file
+  scripts:
+    - name: verify shipyard setup
+      run: |
+        file --version
+        echo "shipyard setup ran" > .shipyard-setup-ran.txt
+        test -f .shipyard-setup-ran.txt
+      timeout: 1m
+
+
