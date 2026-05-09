@@ -35,5 +35,30 @@ a {
 }
 
 footer {
-  padding: 5rem 0;
+  padding: 3rem 0;
+}
+
+/* Reduce outer whitespace on large screens by widening Bootstrap's container. */
+@media (min-width: 576px) {
+  .container {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 780px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 1040px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1280px;
+  }
 }
