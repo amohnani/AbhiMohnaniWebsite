@@ -13,6 +13,10 @@ body {
   letter-spacing: 0.0625em;
 }
 
+html {
+  font-size: 15px; // 16px - 1px
+}
+
 a {
   color: $primary;
   &:focus,
