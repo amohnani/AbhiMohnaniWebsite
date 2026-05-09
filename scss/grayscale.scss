@@ -8,6 +8,10 @@
 @import 'signup.scss';
 @import 'contact.scss';
 
+html {
+  font-size: 15px;
+}
+
 body {
   font-family: 'Nunito';
   letter-spacing: 0.0625em;
